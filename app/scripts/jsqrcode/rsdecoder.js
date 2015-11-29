@@ -24,7 +24,7 @@
 
 
 function ReedSolomonDecoder(field)
-{
+{   
 	this.field = field;
 	this.decode=function(received,  twoS)
 	{

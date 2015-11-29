@@ -25,10 +25,9 @@
 
 
 function ECB(count,  dataCodewords)
-{
+{    
 	this.count = count;
 	this.dataCodewords = dataCodewords;
-	
 	this.__defineGetter__("Count", function()
 	{
 		return this.count;
